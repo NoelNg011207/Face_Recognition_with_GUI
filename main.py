@@ -226,7 +226,7 @@ def TrackImages():
     cv2.destroyAllWindows()
 
 
-takeImg = tk.Button(window, text="Scanning....",
+takeImg = tk.Button(window, text="Sample",
                     command=TakeImages, fg="white", bg="Blue",
                     width=20, height=3, activebackground="Red",
                     font=('times', 15, ' bold '))
